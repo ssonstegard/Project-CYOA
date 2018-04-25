@@ -1,0 +1,71 @@
+#mainCanvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#startB{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+#bgP{
+    width: auto;
+    height: 600px;
+    max-width: 800px;
+}
+button{
+    display:block;
+    margin: 10px;
+}
+button:hover{
+    background: lightgreen;
+}
+#placeN{
+    text-align: center;
+    
+}
+/* #buttonQ{
+    width: 45%;
+    font-size: 16px;
+    height: 40%;
+}
+#buttonW{
+    position: relative;
+    width:45%;
+    font-size: 16px;
+    height:40%;
+    left: 52%;
+    bottom: 46%;
+}
+#buttonE{
+    position:relative;
+    width:45%;
+    font-size: 16px;
+    height:40%;
+    bottom: 45%;
+}
+#buttonR{
+    position:relative;
+    width:45%;
+    font-size: 16px;
+    height:40%;
+    bottom: 91%;
+    left: 52%;
+} */
+
+#textB{
+    border : 1px solid black;
+}
+h1{
+    position: absolute;
+    
+}
+#cB{
+    width: 600px;
+    height: 120px;
+    top: 60%;
+    opacity: .6;
+    text-align: center;
+}

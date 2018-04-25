@@ -1,0 +1,148 @@
+values (MainTown, image, 2, 3, 4, 35); //Arr # 0
+values (Mechanic, image, 5, 6, 1); //Arr # 1
+values (Bar, image, 11, 12, 13); //Arr # 2
+values (Mayor, image, 18, 19, 1); //Arr # 3
+values (Transport, image, 7, 8, 2); //Arr # 4  
+values (MechRob, image, 48); //Arr # 5
+values (PayTransport, image, 9); //Arr # 6
+values (BoozeTransport, image, 10); //Arr # 6
+values (TransportBuy, image, 41); //Arr # 0
+values (TransportBeer, image, 41); //Arr # 24
+values (BarBiker, image, 14, 15, 16); //Arr # 7
+values (BarRob, image, 48); //Arr # 5 
+values (BarPatron, image, 17); //Arr # 8 
+values (BikerTransport, image, 3); //Arr # 9
+values (BikerStory, image, 3); //Arr # 10
+values (BikerJob, image, 26, 27, 1); //Arr # 12
+values (BarPatronFight, image, 48); //Arr # 5
+values (EdenTalk, image, 4); //Arr # 3
+values (MayorJob, image, 20, 21, 1); //Arr # 11
+values (MayorJobNo, image, 22); //Arr # 25
+values (MayorJobOp, image, 23, 1); //Arr # 12
+values (Prison, image, 48); //Arr # 5
+values (JobYes, image, 25); //Arr # 0
+values (JobNo, image, 4); //Arr # 0
+values (Job1, image, 29); //Arr # 13 
+values (BikerJobYes, image, 28); //Arr # 10
+values (BikerJobNo, image, 3); //Arr # 10
+values (BikerJobDone, image, 3); //Arr # 0
+values (MayorJob2, image, 18, 30, 1); //Arr # 14
+values (MayorJob2Yes, image, 31, 32); //Arr # 12
+values (MayorJob2No, image, 29); //Arr # 12
+values (MayorJob2, image, 32); //Arr # --- In here twice // delete this one
+values (Mayor3, image, 18, 9, 1); //Arr # 15
+values (Mayor5, image, 18, 47, 1); //Arr # 16 
+values (Wasteland, image, 36, 37, 1); //Arr # 17 ------------------------>>>>>>>>>>>>>>>>>>>>>>>
+values (WLWalk, image, 48); //Arr # 5
+values (Trailer, image, 38, 39); //Arr # 18
+values (TrailerWeapon, image, 39); //Arr # 18
+values (Wasteland2, image, 42, 37, 1); //Arr # 19 
+values (TrailerWeaponNo, image, 39); //Arr # 18  ---- Changed route
+values (MainTown2, image, 2, 3, 4, 39); //Arr # 20
+values (Eden, image, 43, 44, 45, 39); //Arr # 21
+values (Papers, image, 47); //Arr # 22
+values (NoPapersInquire, image, 46); //Arr # 23
+values (NoPapersAttempt, image, 48); //Arr # 5
+values (EdenInquire, image, 42); //Arr # 21
+values (Win, image, 0); //Arr # 22
+values (GameOver, image, 0); //Arr # 0
+
+/////////// with table insert
+
+
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MainTown, image, 2, 3, 4, 35); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Mechanic, image, 5, 6, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Bar, image, 11, 12, 13); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Mayor, image, 18, 19, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Transport, image, 7, 13, 2); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MechRob, image, 48); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (PayTransport, image, 9); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BoozeTransport, image, 10); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (TransportBuy, image, 41); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (TransportBeer, image, 41); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BarBiker, image, 14, 15, 16); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BarRob, image, 48); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BarPatron, image, 17); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BikerTransport, image, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BikerStory, image, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BikerJob, image, 26, 27, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BarPatronFight, image, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (EdenTalk, image, 4); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MayorJob, image, 20, 21, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MayorJobNo, image, 22 ); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MayorJobOp, image, 23); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Prison, image, 48); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (JobYes, image, 25); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (JobNo, image, 4); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Job1, image, 29); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BikerJobYes, image, 28); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BikerJobNo, image, 3); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (BikerJobDone, image, 3); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MayorJob2, image, 18, 30, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MayorJob2Yes, image, 31, 32); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MayorJob2No, image, 29); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MayorJob2, image, 32); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Mayor3, image, 18, 9, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Mayor5, image, 18, 47, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Wasteland, image, 36, 37, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (WLWalk, image, 48); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Trailer, image, 38, 39); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (TrailerWeapon, image, 39); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Wasteland2, image, 42, 37, 1); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (TrailerWeaponNo, image, 35); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (MainTown2, image, 2, 3, 4, 39); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Eden, image, 43, 44, 45, 39  ); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Papers, image, 47); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (NoPapersInquire, image, 46); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (NoPapersAttempt, image, 48); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (EdenInquire, image, 42); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (Win, image, 47); //Arr #
+insert into adventure (name, image, route1, route2, route3, route4)
+values (GameOver, image, 48); //Arr #
